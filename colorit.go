@@ -15,3 +15,7 @@ var Neutral = "\033[0m" // Color reset
 var Black_B = "\033[1;30m"
 var Red_B = "\033[1;31m"
 var Green_B = "\033[1;32m"
+
+var Colors = map[string]string{
+	"Red_U": "\033[4;31m",
+}
