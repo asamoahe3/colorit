@@ -20,18 +20,18 @@ Open the project you want to work with
 
 ```go
    package main
-   
+
    import(
     "fmt"
      "github.com/asamoahe3/colorit"
    )
 
    func main() {
-	 errMsg := "Something unexpected has occured."
-     greetings := "Happy coding"
+	errMsg := "Something unexpected has occured."
+    greetings := "Happy coding"
 
-     fmt.Println(colorit.Red + errMsg)
-     fmt.Println(colorit.Green + greetings)
+    fmt.Println(colorit.Red + errMsg)
+    fmt.Println(colorit.Green + greetings)
 }
 ```
 
